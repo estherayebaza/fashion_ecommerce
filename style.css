@@ -1,0 +1,526 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:  #E8AEA3;
+    font-family: 'Montserrat', sans-serif;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+/* Nav bar */
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+    /* position: sticky;  */
+    z-index: 9999; 
+    top: 0;  
+}
+nav ul{
+    display: flex;
+}
+nav ul li a{
+    font-family: 'Montserrat', sans-serif;
+    height: 40px;
+    line-height: 43px;
+    margin: 8px;
+    padding: 0px 17px;
+    display: flex;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    letter-spacing: 2px;
+    transition: 00.6s ease;
+  
+}
+nav ul li a:hover{
+    border-bottom: 2px solid brown;
+    box-shadow: 5px 10px 30px brown;
+}
+
+/* home-page */  
+#home-img1 img{
+    height: 450px;
+    width: 320px;
+    margin-left: 62%;
+    margin-top: -33%;
+    
+}
+#home-img2 img{
+    height: 451px;
+    width: 320px;
+    margin-left: 62%;
+    margin-top: -36.5%;
+    position: absolute;
+}
+#home-img3 img{
+    height: 451px;
+    width: 320px;
+    margin-left: 62%;
+    margin-top: -36.5%;
+    position: absolute;
+}
+#home-img4 img{
+    height: 451px;
+    width: 320px;
+    margin-left: 62%;
+    margin-top: -36.5%;
+    position: absolute;
+}
+#home-img5 img{
+    height: 451px;
+    width: 320px;
+    margin-left: 62%;
+    margin-top: -36.5%;
+    position: absolute;
+}
+#home-img6 img{
+    height: 451px;
+    width: 320px;
+    margin-left: 62%;
+    margin-top: -36.5%;
+    position: absolute;
+}
+#home-img7 img{
+    height: 451px;
+    width: 320px;
+    margin-left: 62%;
+    margin-top: -36.5%;
+    position: absolute;
+}
+#home-img8 img{
+    height: 451px;
+    width: 320px;
+    margin-left: 62%;
+    margin-top: -36.5%;
+    position: absolute;
+}
+#home-img9 img{
+    height: 451px;
+    width: 320px;
+    margin-left: 62%;
+    margin-top: -36.5%;
+    position: absolute;
+}
+#home-img10 img{
+    height: 451px;
+    width: 320px;
+    margin-left: 62%;
+    margin-top: -36.5%;
+    position: absolute;
+}
+#home-page{ 
+    height: 450px;   
+    padding-top: 10%;
+}
+.home-page-heading{
+    width: 1250px;
+    height: 520px;
+    position: absolute;
+    left: 5%;
+    top: 53%;   
+    color:  #e900af00;
+    transform: translate(-1%, -50%); 
+    background-color: rgba(255, 253, 253, 0.33);  
+}
+.home-page-heading h1{
+    font-size: 50px;
+    margin: 0px;
+    letter-spacing: 3px;
+    
+}
+.home-page-heading h1 span{
+    color: #ffffff;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    margin-left: 100px;
+    opacity: 50%;
+    margin-top: 80px;
+}
+#one{
+    color: #000000;
+    margin-left: 300px; 
+    font-size: 40px;  
+    font-weight: 1000; 
+} 
+#two{
+    color: rgba(0, 0, 0, 0.993);
+    margin-left: 465px;
+    margin-top: -30px;
+    font-size: 30px;
+    font-weight: 1000;
+}
+
+
+/* About */
+#about{
+    width: 100;
+    height: 1100px;
+    display: flex;
+    align-items: center; 
+    margin-top: -175px;   
+}
+#about h1{
+    color: #ffffff;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    margin-left: -1024px;
+    opacity: 50%;
+    margin-top: -245px;
+    font-size: 50px;
+}
+#about h2{
+    margin-top: -800px;
+    margin-left: 100px;
+}
+#line{
+    width: 1000px;
+    background-color: black;
+    height: 1px;
+    margin-left: 7px;
+    margin-top: -59%;
+    opacity: 32%;
+}
+#name{
+    color: brown;
+    font-size: 25px;
+    font-weight: 600;
+}
+#paragraph{
+    margin-top: -440px;
+    margin-left: 480px;
+    font-size: 16px;
+}
+#about-img1 img{
+    height: 250px;
+    width: 250px;
+    margin-left: 24%;
+    position: absolute;
+    margin-top: -915px;
+    transition: width 2s, height 2s, transform 2s, linear 2s;
+}
+#about-img1 img:hover {
+    /* width: 300px;
+    height: 300px;
+    transform: rotateZ(360deg); */
+    box-shadow: 1px 1px 5px #E8AEA3;
+   }
+
+#about-img2 img{
+    height: 250px;
+    width: 280px;
+    margin-left: 60%;
+    position: absolute;
+    margin-top: -660px;
+    transition: width 2s, height 2s, transform 2s, linear 2s;
+}
+#about-img2 img:hover {
+    box-shadow: 5px 0px 30px #E8AEA3;
+    }
+#about-img3 img{
+    height: 300px;
+    width: 200px;
+    margin-left: 25.5%;
+    position: absolute;
+    margin-top: -710px;
+    transition: width 2s, height 2s, transform 2s, linear 2s;
+}
+#about-img3 img:hover{
+    box-shadow: 5px 10px 30px #E8AEA3;
+}
+
+.about-page-heading{
+    width: 1250px;
+    height: 520px;
+    position: absolute;
+    left: 5%;
+    top: 145%;   
+    color:  #e900af00;
+    transform: translate(-1%, -50%); 
+    background-color: rgba(169, 100, 100, 0.33);  
+}
+
+/* Collections */
+.winter{
+    width: 1250px;
+    height: 520px;
+    position: absolute;
+    left: 5%;
+    top: 239%;  
+    color:  #e900af00;
+    transform: translate(-1%, -50%); 
+    background-color: rgba(169, 100, 100, 0.33);
+}
+#winter h2{
+    width: 100;
+    height: 1100px;
+    display: flex;
+    align-items: center; 
+    top: 105%;  
+    left: 100px; 
+    position: absolute;
+}
+#winter-line{
+    width: 1000px;
+    background-color: black;
+    height: 1px;
+    position: absolute;
+    top: 196%;
+    left: 14%;
+    opacity: 32%;
+}
+.summer{
+    width: 1250px;
+    height: 520px;
+    position: absolute;
+    left: 5%;
+    top: 333%;  
+    color:  #e900af00;
+    transform: translate(-1%, -50%); 
+    background-color: rgba(169, 100, 100, 0.33);
+}
+#summer h2{
+    width: 100;
+    height: 1100px;
+    display: flex;
+    align-items: center; 
+    top: 199%;  
+    left: 100px; 
+    position: absolute;
+}
+#summer-line{
+    width: 1000px;
+    background-color: black;
+    height: 1px;
+    position: absolute;
+    top: 290%;
+    left: 15.5%;
+    opacity: 32%;
+}
+.fall{
+    width: 1250px;
+    height: 520px;
+    position: absolute;
+    left: 5%;
+    top: 430%;  
+    color:  #e900af00;
+    transform: translate(-1%, -50%); 
+    background-color: rgba(169, 100, 100, 0.33);
+}
+#fall h2{
+    width: 100;
+    height: 1100px;
+    display: flex;
+    align-items: center; 
+    top: 296%;  
+    left: 100px; 
+    position: absolute;
+}
+#fall-line{
+    width: 1000px;
+    background-color: black;
+    height: 1px;
+    position: absolute;
+    top: 387%;
+    left: 11%;
+    opacity: 32%;
+}
+
+
+/* Contact */
+#contact{
+    width: 100%;
+    display: flex;
+    margin-top: -32%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px 0px;
+    background-color: #E8AEA3;
+    border: transparent;
+    margin-bottom: 20%;
+}
+.contact-page{
+    width: 1250px;
+    height: 520px;
+    position: absolute;
+    left: 5%;
+    top: 520%;   
+    color:  #e900af00;
+    transform: translate(-1%, -50%); 
+    background-color: rgba(169, 100, 100, 0.33);   
+}
+#des{
+  text-align: left;
+  position: absolute;
+  left: 15%;
+  top: 485%;
+  font-size: 20px;
+   
+}
+
+#contact form{
+    width: 30%;
+    margin-left: -40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: -315%;
+}
+
+#contact form input, #contact form textarea{
+    width: 80%;
+    height: 30px;
+    margin: 5px 0px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 20px;
+    border: transparent;
+    margin-left: -82px;
+    z-index: 2;
+}
+#contact form textarea{
+    height: 100px;
+}
+#contact form input[type="submit"]{
+    height: 45px;
+    background-color: #b18076;
+    text-transform: uppercase;
+    width: 110px;
+    margin-left: -320px;
+}
+h6{
+    font-size: 20px;
+    color: brown;
+}
+.icons{
+    border: transparent;
+    background-color: transparent;
+    
+}
+/* #icons{
+    display: flex;
+    margin-left: 138%;
+} */
+
+.text-contact{
+    position: absolute;
+    left: 60%;
+    top:491%;
+    font-size: 18px;
+    line-height: 150%;
+}
+/* collections animations */
+.add-btn{
+    border: transparent;
+    background-color:#b18076 ;
+    height: 25px;
+    border-radius: 5px  ;
+
+}
+
+.snows{
+    position: absolute;
+    top: 5%;
+    height: 20px;
+    animation: snowing linear forwards;
+}
+@keyframes snowing{
+    to{
+        transform: translateY(480px);
+    }
+}
+.leaf{
+    position: absolute;
+    top: 400%;
+    height: 20px;
+    animation: fall linear forwards;
+}
+@keyframes fall{   
+ 
+    to{
+        transform: translateY(700px) rotate(360deg);
+    }
+}
+.sunflower{
+    position: absolute;
+    top: 294%;
+    height: 10px;
+    animation: sun linear forwards;
+}
+/* hundredths of the viewports height : vh */
+@keyframes sun{
+    to{
+        transform: translateY(500px) rotate(120deg);
+    }
+}
+
+
+.card {
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 20%;
+    height: 450px;
+    background-color: #FFFFFF;
+    margin-top: 32px;
+    color: rgb(71, 70, 70);
+    z-index: 99;
+  }
+  .card:hover {
+    box-shadow: 0 10px 20px 0 rgba(27, 26, 26, 0.2);
+  }
+  .container {
+    padding: 2px 16px;
+  }
+  img{
+      width: 100%;
+      height: 360px;
+  }
+  .fall{
+      display: flex;
+      justify-content: space-evenly;
+  }
+  .summer{
+      display: flex;
+      justify-content: space-evenly;
+  }
+  .winter{
+       display: flex;
+      justify-content: space-evenly;
+  }
+
+  #myBtn {
+    display: none; /* Hidden by default */
+   position: fixed; /* Fixed/sticky position */
+   bottom: 20px; /* Place the button at the bottom of the page */
+   right: 30px; /* Place the button 30px from the right */
+   z-index: 99; /* Make sure it does not overlap */
+   border: none; /* Remove borders */
+   outline: none; /* Remove outline */
+   background-color: red-rose; /* Set a background color */
+   color: rgb(201, 105, 105); /* Text color */
+   cursor: pointer; /* Add a mouse pointer on hover */
+   padding: 15px; /* Some padding */
+   border-radius: 10px; /* Rounded corners */
+   font-size: 18px; /* Increase font size */
+  }
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  } 
+  #footer{
+      position: absolute;
+      top: 570%;
+      left: 40%;
+  }
